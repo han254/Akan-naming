@@ -7,6 +7,10 @@
 ## Description
 
 This is a web application where users input there date, month and year of birth and on clicking submit, they are provided with the Akan names according to the day of the week they were born.
+### Author's Information
+[Peter Njenga](https://github.com/han254)
+-A student at Moringa school pursing Software development.
+
 ## Setup/Installation Requirements
 
 -Using your preffered browser(chrome)
