@@ -30,3 +30,12 @@ h2 {
   padding: 50px;
   border-radius: 5px;
 }
+.input1 input {
+  height: 35px;
+  width: 400px;
+}
+
+#myform h2 {
+  color: blue;
+  font-size: 20px;
+}
