@@ -53,3 +53,24 @@ h2 {
 .btn:hover {
   background-color: greenyellow;
 }
+
+.name-pictures h1{
+    font-size: 30px;
+    margin-top: 35px;
+    color:black;
+    font-style: italic;
+}
+.image-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.akan-pic{
+    padding: 0 20px 20px;
+}
+img:hover{
+    opacity: 0.5;
+    transition: 0.9s;
+}
