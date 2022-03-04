@@ -12,4 +12,21 @@ div .navbar-brand {
   color: bisque;
   font-size: 30px;
 }
-
+h1 {
+  text-align: center;
+  color: darkgray;
+}
+h2 {
+  text-align: center;
+  font-style: oblique;
+}
+#myform {
+  border: 1px solid;
+  height: 550px;
+  width: 500px;
+  display: block;
+  background-color: lightgrey;
+  margin: 0px auto;
+  padding: 50px;
+  border-radius: 5px;
+}
