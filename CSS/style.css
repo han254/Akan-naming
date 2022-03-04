@@ -2,7 +2,14 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-div .navbar-brand{
-    color:bisque;
+body {
+  background-color: blanchedalmond;
 }
+
+div .navbar-brand {
+  color: bisque;
+  font-size: 30px;
+}
+
