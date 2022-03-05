@@ -21,7 +21,7 @@ marquee {
   background-color: green;
   color: white;
 }
-h2 {
+.heading h2 {
   text-align: center;
   font-style: oblique;
   text-transform: uppercase;
@@ -47,7 +47,7 @@ h2 {
 }
 
 .btn {
-  background-color: purple;
+  background-color: green;
   border-radius: 10px;
   height: 35px;
   margin-top: 5%;
@@ -90,3 +90,4 @@ img:hover {
   margin-top: 20px;
   text-transform: uppercase;
 }
+
