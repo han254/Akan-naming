@@ -26,7 +26,7 @@ marquee {
   font-style: oblique;
   text-transform: uppercase;
 }
-#myform {
+#myForm {
   border: 1px solid;
   height: 550px;
   width: 500px;
@@ -41,7 +41,7 @@ marquee {
   width: 400px;
 }
 
-#myform h2 {
+#myForm h2 {
   color: green;
   font-size: 20px;
 }

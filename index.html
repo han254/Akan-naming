@@ -49,16 +49,15 @@
         <h2>FIND OUT YOUR AKAN NAME!</h2>
     </div>
     <div>
-        <form name="myform" id="myform">
+        <form name="myForm" id="myForm" onsubmit="validateForm(event);">
             <h2>Fill in the information below:</h2>
             <hr>
             <div class="input1">
                 <label for="YOB">Year Of BIrth:</label><br>
-                <input type="number" id="YOB" min="1900" max="2022" placeholder="Enter the Year e.g 2001"
-                    require><br><br>
+                <input type="number" name="year" id="YOB" placeholder="Enter the Year e.g 2001"><br><br>
 
                 <label for="MOB">Month Of Birth:</label><br>
-                <select name="MOB" id="MOB"><br><br>
+                <select name="month" id="MOB"><br><br>
                     <option value="#">Select your Month of Birth e.g May</option>
                     <option value="January">January</option>
                     <option value="February">February</option>
@@ -75,14 +74,13 @@
                 </select><br><br>
 
                 <label for="DOB">Date Of Birth:</label><br>
-                <input type="number" id="DOB" min="1" max="31" placeholder="Enter Your Date Of BIrth e.g 16"
-                    require><br><br>
+                <input name="date" type="number" id="DOB" placeholder="Enter Your Date Of BIrth e.g 16"><br><br>
             </div>
-            <label for="Gender">Choose Your Gender:</label><br>
-            <input type="radio" id="female" name="fav_language" value="FEMALE">
-            <label for="male">MALE</label><br>
-            <input type="radio" id="male" name="fav_language" value="MALE">
-            <label for="female">FEMALE</label><br><br>
+            <p>Choose Your Gender:</p><br>
+            <input type="radio" id="female" name="gender" value="FEMALE">
+            <label for="female">FEMALE</label><br>
+            <input type="radio" id="male" name="gender" value="MALE">
+            <label for="male">MALE</label><br><br>
 
             <button class="btn" type="submit">SUBMIT</button>
         </form>
@@ -150,7 +148,7 @@
         </div>
     </footer>
 
-
+    <script src="./Javascript/script.js"></script>
     <!--Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
