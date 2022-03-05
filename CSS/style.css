@@ -12,13 +12,19 @@ div .navbar-brand {
   color: bisque;
   font-size: 30px;
 }
-marquee{
-    color:purple;
-    font-size: 40px;
+marquee {
+  color: green;
+  font-size: 40px;
+}
+.heading p {
+  align-items: baseline;
+  background-color: green;
+  color: white;
 }
 h2 {
   text-align: center;
   font-style: oblique;
+  text-transform: uppercase;
 }
 #myform {
   border: 1px solid;
@@ -36,7 +42,7 @@ h2 {
 }
 
 #myform h2 {
-  color: blue;
+  color: green;
   font-size: 20px;
 }
 
@@ -54,32 +60,33 @@ h2 {
   background-color: greenyellow;
 }
 
-.name-pictures h1{
-    font-size: 30px;
-    margin-top: 35px;
-    color:black;
-    font-style: italic;
+.name-pictures h1 {
+  font-size: 30px;
+  margin-top: 35px;
+  color: black;
+  font-style: italic;
+  text-transform: uppercase;
 }
-.image-section{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.image-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.akan-pic{
-    padding: 0 20px 20px;
+.akan-pic {
+  padding: 0 20px 20px;
 }
-img:hover{
-    opacity: 0.5;
-    transition: 0.9s;
+img:hover {
+  opacity: 0.5;
+  transition: 0.9s;
 }
-.info p{
-    align-items: baseline;
-    font-size: medium;
+.info p {
+  align-items: baseline;
+  font-size: medium;
 }
-.info h3{
-    font-size: 35px;
-    color: purple;
-    margin-top: 20px;
+.info h3 {
+  font-size: 35px;
+  margin-top: 20px;
+  text-transform: uppercase;
 }
