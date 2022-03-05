@@ -90,4 +90,26 @@ img:hover {
   margin-top: 20px;
   text-transform: uppercase;
 }
-
+footer {
+  bottom: 0px;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+.container {
+  display: flex;
+  background-color: black;
+  width: 100%;
+}
+.about h2 {
+  color: white;
+}
+.content {
+  color: white;
+}
+footer .text {
+  color: white;
+}
+.contact h2 {
+  color: white;
+}
