@@ -34,7 +34,7 @@ My website is not responsive to all the devices, but with time am looking forwar
 You can contact me through my email[peternjenga1706@gmail.com]
 
 ##### Link to my github-pages
-()
+(https://han254.github.io/Akan-naming/)
 ### License
 
 Copyright (c) 2022 [click here to view license](LICENSE)
