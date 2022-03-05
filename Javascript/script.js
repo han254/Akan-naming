@@ -30,3 +30,12 @@ function validateForm(e) {
     document.myForm.month.selectedIndex < 1
   ) {
     alert("Please select Your Month of Birth!");
+     document.myForm.month.focus();
+    return false;
+  } else if (
+    day <= 0 ||
+    day >= 32
+  ) {
+    alert("Please Enter a valid Date Of Birth!");
+    document.myForm.day.focus();
+    return false;
