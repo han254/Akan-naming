@@ -12,9 +12,9 @@ div .navbar-brand {
   color: bisque;
   font-size: 30px;
 }
-h1 {
-  text-align: center;
-  color: darkgray;
+marquee{
+    color:purple;
+    font-size: 40px;
 }
 h2 {
   text-align: center;
@@ -41,7 +41,7 @@ h2 {
 }
 
 .btn {
-  background-color: rgb(165, 57, 30);
+  background-color: purple;
   border-radius: 10px;
   height: 35px;
   margin-top: 5%;
@@ -73,4 +73,13 @@ h2 {
 img:hover{
     opacity: 0.5;
     transition: 0.9s;
+}
+.info p{
+    align-items: baseline;
+    font-size: medium;
+}
+.info h3{
+    font-size: 35px;
+    color: purple;
+    margin-top: 20px;
 }
