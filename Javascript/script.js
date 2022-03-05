@@ -25,4 +25,8 @@ function validateForm(e) {
     alert("Please Enter a valid Year Of Birth");
     document.myForm.year.focus();
     return false;
- 
+ } else if (
+    document.myForm.month.selectedIndex == -1 ||
+    document.myForm.month.selectedIndex < 1
+  ) {
+    alert("Please select Your Month of Birth!");
