@@ -18,10 +18,6 @@ This is a web application where users input there date, month and year of birth 
 * In the web application,input your date, month and year of birth.
 * click submit to view your Akan name as per your day of birth.
 
-## Known Bugs
-
-My website is not responsive to all the devices, but with time am looking forward to make it responsive for all devices.
-
 ## Technologies Used
 * Git
 * HTML
